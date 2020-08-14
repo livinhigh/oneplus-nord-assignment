@@ -1,0 +1,295 @@
+
+body{
+  background-image: url("bghome.jpg") ;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+p{
+  font-family: "Segoe UI Light";
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+input[type=submit].orderpagegrey {
+  font-family: "Segoe UI Light"
+
+  font-size:20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: Transparent;
+    display: block;
+    padding: 0.3em 4em;
+    color: white;
+    border: solid 1px white;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+
+input[type=submit].orderpagegrey:hover {
+  transition: .5s;
+  border: solid 1px grey;
+
+    background: grey;
+    text-decoration-color: white;
+    color: white;
+}
+input[type=submit].orderpageblue {
+  font-family: "Segoe UI Light"
+
+  font-size:20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: Transparent;
+    display: block;
+    padding: 0.3em 4em;
+    color: white;
+    border: solid 1px white;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+
+input[type=submit].orderpageblue:hover {
+  border: solid 1px rgb(0,178,210);
+  transition: .5s;
+    background: rgb(0,178,210);
+    text-decoration-color: white;
+    color: white;
+}
+
+input[type=submit].square_btn {
+  font-family: "Segoe UI Light"
+
+  font-size:20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: Transparent;
+    display: block;
+    padding: 0.3em 4em;
+    color: red;
+    border: solid 1px red;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+
+input[type=submit].square_btn:hover {
+  transition: .5s;
+    background: red;
+    text-decoration-color: white;
+    color: white;
+}
+input[type=submit].buy {
+  font-size:20px;
+  margin-left: 10px;
+  margin-right: auto;
+  background-color: Transparent;
+    display: block;
+    padding: 0.3em 4em;
+    color: red;
+    border: solid 1px red;
+    border-radius: 20px;
+    transition: .5s;
+}
+input[type=submit].buy:hover {
+  transition: .5s;
+    background: red;
+    text-decoration-color: white;
+    color: white;
+}
+img.orderpage{
+  margin-top: 10%;
+  height:500px;
+}
+h2.orderpage{
+  font-family: "Arial Black";
+  font-size: 50px;
+  color: white;
+
+}
+h2.orderpagegrey{
+  font-family: "Arial Black";
+  font-size: 50px;
+  color: white;
+transition: 0.5s;
+}
+h2.orderpagegrey:hover{
+color: grey;
+transition: 0.5s;
+}
+h2.orderpageblue{
+  font-family: "Arial Black";
+  font-size: 50px;
+  color: white;
+transition: 0.5s;
+}
+h2.orderpageblue:hover{
+color: rgb(0,178,210);
+transition: 0.5s;
+}
+
+label{
+  margin-left: 30%;
+  margin-right: 50%;
+  margin-top: 15px;
+  display: block;
+  font-size: 25px;
+  font-family: "Segoe UI Light";
+  color:white;
+}
+input[type=text]{
+  font-family: "Segoe UI Light";
+  font-size: 25px;
+  padding: 0.3em 0.5em;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: Transparent;
+
+  margin-left: 30%;
+  margin-right: 50%;
+}
+input[type=email]{
+  font-family: "Segoe UI Light";
+  font-size: 25px;
+  padding: 0.3em 1em;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: Transparent;
+
+  margin-left: 30%;
+  margin-right: 50%;
+}
+textarea{
+  font-family: "Segoe UI Light";
+  color: white;
+  background-color: Transparent;
+  border: solid 1px white;
+  font-size: 20px;
+  border-radius: 20px;
+
+}
+input[type=submit]{
+  font-family: "Segoe UI Light";
+
+  padding: 0.3em 4em;
+  color: white;
+  border: solid 1px red;
+  border-radius: 20px;
+  background-color: Transparent;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 50%;
+  transition: 0.5s;
+
+}
+input[type=submit]:hover{
+  transition: 0.5s;
+color: white;
+background-color: red
+}
+textarea{
+
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+nav.features{
+  margin-top: 500px;
+  color: white;
+  font-size: 50px;
+  font-family: "Arial Black";
+
+}
+h1.contact{
+  margin-left:40%;
+  margin-right: 40%;
+  margin-top: 100px;
+  display: block;
+  color: white;
+  font-family: "Arial Black";
+  font-size: 50px;
+}
+a.features{
+  margin-bottom: 50px;
+  margin-left: 40px;
+  display: block;
+  color: white;
+  transition: 0.5s;
+}
+a.features:link{
+  text-decoration: none;
+}
+a.features:visited {
+  text-decoration: none;
+}
+a.features:hover {
+  color: rgb(0,178,210);
+  transition: 0.5s;
+}
+
+nav.top{
+  margin-left: 60%;
+
+  font-family: "Segoe UI Light"
+}
+a.nav{
+    margin-right: 50px;
+    color: white;
+    transition: 0.5s;
+}
+a.nav:link {
+  text-decoration: none;
+
+}
+
+a.nav:visited {
+  text-decoration: none;
+}
+
+a.nav:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+a.nav:active {
+  text-decoration: underline;
+}
+td{
+  vertical-align: middle;
+  align-content: center;
+}
+table{
+  width: 100%;
+}
+img.mainlogo{
+  margin-top: 15%;
+margin-left: 30%;
+margin-right: 30%
+display:block;
+  width: 40%
+}
+img.nord{
+  height: 500px;
+  margin-left: 30%;
+  margin-top: 12%;
+}
+h1.model{
+  margin-top: 15%;
+  line-height: 110px;
+  font-family: "Arial Black";
+  font-size: 150px;
+  color: white;
+}
+.introduce{
+  margin-left: 2%;
+  letter-spacing: 20px;
+  font-family: "Segoe UI Light";
+  color: "white";
+  font-size: 15px;
+  line-height: 20px;
+}

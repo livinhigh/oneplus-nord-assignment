@@ -1,0 +1,96 @@
+
+body{
+  transition: 0.5s;
+  background-image: url("bghome.jpg") ;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100%
+}
+
+
+
+nav{
+  margin-left: 70%;
+  margin-top: 30px;
+  font-family: "Segoe UI Light"
+}
+a.nav{
+    margin-right: 50px;
+    color: white;
+    transition: 0.5s;
+}
+a.nav:link {
+  text-decoration: none;
+
+}
+
+a.nav:visited {
+  text-decoration: none;
+}
+
+a.nav:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+a.nav:active {
+  text-decoration: underline;
+}
+td{
+  vertical-align: middle;
+  align-content: center;
+}
+table{
+  width: 100%;
+}
+img.mainlogo{
+  margin-top: 15%;
+margin-left: 30%;
+margin-right: 30%
+display:block;
+  width: 40%
+}
+img.nord{
+  height: 500px;
+  margin-left: 30%;
+  margin-top: 12%;
+}
+h1.model{
+  margin-top: 15%;
+  line-height: 110px;
+  margin-bottom: 50%;
+  font-family: "Arial Black";
+  font-size: 150px;
+  color: white;
+}
+.introduce{
+  margin-left: 2%;
+  letter-spacing: 20px;
+  font-family: "Segoe UI Light";
+  color: "white";
+  font-size: 15px;
+  line-height: 20px;
+}
+button{
+  font-family: "Segoe UI Light"
+
+}
+button.square_btn {
+  font-size:20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: Transparent;
+    display: block;
+    padding: 0.3em 4em;
+    color: red;
+    border: solid 1px red;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+button.square_btn:hover {
+  transition: .5s;
+    background: red;
+    text-decoration-color: white;
+    color: white;
+}
